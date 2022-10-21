@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://rsms.me/inter/inter.css");
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 50px;
+}
+.content-title {
+  text-align: center;
+  color: #E3A9E8;
+}
+.content-title h3 {
+  font-size: 80px;
+  font-weight: 100;
+  font-size: "Inter";
+  line-height: 130px;
+  text-shadow: -1px 1px 1800px #A87DAB;
+}
+.content-title p {
+  color: #A87DAB;
+  line-height: 30px;
+}
+.content-grid {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 420px));
+  grid-template-rows: 130px 130px;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+  justify-content: center;
+}
+.content-grid-box {
+  text-align: center;
+  border: 1px solid #A87DAB;
+  height: 130px;
+  background-color: rgba(98, 73, 99, 0.2588235294);
+}
+.content-grid-box h4 {
+  color: #E3A9E8;
+  font-size: 23px;
+  font-weight: 300;
+  padding: 30px;
+}
+.content-grid-box a {
+  text-decoration: none;
+  border: 2px solid red;
+  padding: 4.9px 20px;
+  border-radius: 5px;
+  background-color: #A87DAB;
+  border: 2px solid #624963;
+}/*# sourceMappingURL=index.css.map */
